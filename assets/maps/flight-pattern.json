@@ -1,0 +1,16 @@
+{
+  "waterline": 584,
+  "lanes": [172, 236, 302, 382],
+  "windZones": [
+    { "start": 0, "end": 180, "force": 0.000012, "label": "Calm sea breeze" },
+    { "start": 180, "end": 420, "force": -0.000018, "label": "Crosswind from the ghats" },
+    { "start": 420, "end": 760, "force": 0.000026, "label": "Monsoon gust wall" },
+    { "start": 760, "end": 1080, "force": -0.000021, "label": "Slipstream under the flyover" }
+  ],
+  "obstacles": [
+    { "variant": "rickshaw", "lane": 3, "speedBias": 0.94, "label": "Auto-rickshaw roof" },
+    { "variant": "truck", "lane": 2, "speedBias": 1.08, "label": "Highway truck" },
+    { "variant": "billboard", "lane": 1, "speedBias": 1.02, "label": "LED hoarding" },
+    { "variant": "kite", "lane": 0, "speedBias": 1.12, "label": "Festival kite line" }
+  ]
+}

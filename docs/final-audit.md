@@ -18,6 +18,7 @@ npm install
 npm run audit
 python -m playwright install chromium
 python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --server "npm run preview" --port 4173 -- python tests/browser_smoke.py
+python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --server "npm run preview" --port 4173 -- python tests/capture_gallery.py
 ```
 
 ## Acceptance criteria
@@ -35,6 +36,7 @@ python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --serv
 - `npm run test`: passed with `4/4` tests
 - `python -m playwright install chromium`: passed
 - `python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --server "npm run preview" --port 4173 -- python tests/browser_smoke.py`: passed
+- `python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --server "npm run preview" --port 4173 -- python tests/capture_gallery.py`: passed
 
 ## Visual audit
 

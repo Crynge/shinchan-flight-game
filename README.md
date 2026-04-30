@@ -26,19 +26,29 @@ That gives you a fast browser build without the dependency sprawl that usually h
 - Lightweight analytics event feed for tuning replay behavior
 - Responsive presentation shell built for desktop and mobile browsers
 
-## Screenshot
+## Screenshots
 
-![Shinchan Flight gameplay preview](./tests/artifacts/shinchan-flight-smoke.png)
+### Menu screen
+
+![Shinchan Flight menu](./docs/screenshots/menu-screen.png)
+
+### Mid-run gameplay
+
+![Shinchan Flight mid run](./docs/screenshots/mid-run-screen.png)
+
+### Splashdown and fail-state flow
+
+![Shinchan Flight splashdown](./docs/screenshots/splashdown-screen.png)
 
 ## Architecture
 
 ```text
 src/
-├── entities/   Bochan, Shinchan, obstacle pool, clouds, water bands
-├── scenes/     Boot, Menu, Game, WaterSplash, GameOver
-├── systems/    Input, audio, HUD, analytics, state persistence
-├── utils/      Math helpers and grading
-└── main.ts     UI chrome + Phaser bootstrapping
+|-- entities/   Bochan, Shinchan, obstacle pool, clouds, water bands
+|-- scenes/     Boot, Menu, Game, WaterSplash, GameOver
+|-- systems/    Input, audio, HUD, analytics, state persistence
+|-- utils/      Math helpers and grading
+`-- main.ts     UI chrome + Phaser bootstrapping
 ```
 
 More detail is in [docs/architecture.md](./docs/architecture.md).
@@ -63,9 +73,14 @@ Open the local Vite URL, press `Launch Run`, then:
 npm run audit
 python -m playwright install chromium
 python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --server "npm run preview" --port 4173 -- python tests/browser_smoke.py
+python C:/Users/samee/.codex/skills/webapp-testing/scripts/with_server.py --server "npm run preview" --port 4173 -- python tests/capture_gallery.py
 ```
 
 The latest audit summary lives in [docs/final-audit.md](./docs/final-audit.md).
+
+## Author
+
+This repo is authored and maintained by [Sameer Alam](./AUTHORS.md). Commits are configured to use the `Crynge` GitHub identity, not `codex`.
 
 ## Product notes
 

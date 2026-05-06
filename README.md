@@ -1,5 +1,17 @@
 # Shinchan Flight
 
+<!-- portfolio-seo:start -->
+![Stars](https://img.shields.io/github/stars/Crynge/shinchan-flight-game?style=flat-square) ![License](https://img.shields.io/github/license/Crynge/shinchan-flight-game?style=flat-square) ![Status](https://img.shields.io/badge/status-active-blue?style=flat-square)
+
+![Social Preview](docs/social-preview.png)
+
+> Physics-based 2.5D browser game where Shinchan swings from Bochan?s nose with splashdown platformer mechanics.
+
+**GitHub Search Keywords:** phaser platformer, browser game, typescript game, physics game, shinchan style platformer, web game prototype
+
+<!-- portfolio-seo:end -->
+
+
 A polished 2.5D browser game where Shinchan hangs from Bochan's nose while Bochan flies above a glowing Indian coastal expressway. If Shinchan loses the grip, he drops straight into the monsoon water below in a fast splashdown sequence inspired by classic platformer fail states.
 
 ## Why this stack
@@ -84,7 +96,7 @@ This repo is authored and maintained by [Sameer Alam](./AUTHORS.md). Commits are
 
 ## Product notes
 
-- “8D” is interpreted here as a rich 2.5D presentation, because there is no real 8D game-development standard.
+- "8D" is interpreted here as a rich 2.5D presentation, because there is no real 8D game-development standard.
 - The character art is stylized runtime-generated fan-project art, not ripped assets.
 - This repo is optimized for browser deployment first. If you want native packaging later, Phaser can be wrapped with Electron, Tauri, or mobile web-view shells.
 

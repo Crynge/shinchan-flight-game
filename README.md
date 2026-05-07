@@ -11,6 +11,15 @@
 
 <!-- portfolio-seo:end -->
 
+<!-- portfolio-links:start -->
+<div align="center">
+
+[Documentation](docs) &middot; [Architecture](docs/architecture.md) &middot; [Audit](docs/final-audit.md) &middot; [Screenshots](docs/screenshots) &middot; [Contributing](CONTRIBUTING.md) &middot; [Security](SECURITY.md) &middot; [Authors](AUTHORS.md) &middot; [Workflows](.github/workflows)
+
+</div>
+<!-- portfolio-links:end -->
+
+
 
 A polished 2.5D browser game where Shinchan hangs from Bochan's nose while Bochan flies above a glowing Indian coastal expressway. If Shinchan loses the grip, he drops straight into the monsoon water below in a fast splashdown sequence inspired by classic platformer fail states.
 
